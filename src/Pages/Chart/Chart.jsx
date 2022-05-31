@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
+import Navbar from "../Shared/Navbar/Navbar";
+import "./Chart.css";
 
 const Chart = () => {
   const [data] = useState([
@@ -42,9 +44,18 @@ const Chart = () => {
       .attr("width", xScale.bandwidth())
       .attr("height", (val) => h - yScale(val));
   }, [data]);
+  const random = () => {
+    window.location.reload();
+  };
   return (
     <div>
-      <svg ref={svgRef}></svg>
+      <Navbar />
+      <div className="container">
+        <svg ref={svgRef}></svg>
+        <button onClick={random} className="btn cursor">
+          Random
+        </button>
+      </div>
     </div>
   );
 };

@@ -23,6 +23,12 @@ $buttonMargin:10px 0;
 .heading{
     text-align: center;
 }
+.cursor{
+    cursor: pointer;
+}
+.text-accent{
+    color: $accentColor;
+}
 .height-screen{
     height: $screen;
 }

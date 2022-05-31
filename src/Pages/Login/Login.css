@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
+.text-accent {
+  color: #33ADFF;
+}
+
 .height-screen {
   height: 100vh;
 }
