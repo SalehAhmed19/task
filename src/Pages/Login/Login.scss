@@ -1,0 +1,86 @@
+$baseColor:#fff;
+$primaryColor:#F7F7F7;
+$secondaryColor:#F2F3F8;
+$accentColor:#33ADFF;
+$accentHover:#17a2fe;
+$labelText:#616161;
+$error:#ff0000;
+$dark:#000;
+$screen:100vh;
+$containerPadding:20px;
+$formMargin:30px 40px;
+$imgWidth:470px;
+$formWidth:100%;
+$labelFont:12px;
+$inputRadius:5px;
+$inputPadding:10px;
+$inputWidth:500px;
+$conditionBold:600;
+$buttonHeight:35px;
+$buttonWidth:200px;
+$buttonRadius:5px;
+$buttonMargin:10px 0;
+.heading{
+    text-align: center;
+}
+.height-screen{
+    height: $screen;
+}
+.container{
+    background-color: $secondaryColor;
+    padding: $containerPadding;
+    .form-container{
+        display: flex;
+        width: 75%;
+        height: 80vh;
+        margin: 0 auto;
+        background-color: $baseColor;
+    }
+    .img-container{
+        background-color: $primaryColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .img{
+        width: $imgWidth;
+    }
+    .form{
+        width: $formWidth;
+        margin: $formMargin;
+    }
+    .input{
+        display: block;
+        border: 1px solid $accentColor;
+        border-radius: $inputRadius;
+        padding: $inputPadding;
+        width: $inputWidth;
+        margin: 10px 0;
+    }
+    .label{
+        font-size: $labelFont;
+        color: $labelText;
+    }
+    .conditions{
+        color: $dark;
+        font-weight: $conditionBold;
+    }
+    .submit-button{
+        background-color: $accentColor;
+        border: 0;
+        display: block;
+        height: $buttonHeight;
+        width: $buttonWidth;
+        color: $baseColor;
+        border-radius: $buttonRadius;
+        margin: $buttonMargin;
+        cursor: pointer;
+    }
+    .submit-button:hover{
+        background-color: $accentHover;
+    }
+    .error{
+        color: $error;
+    }
+}

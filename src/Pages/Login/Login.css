@@ -1,0 +1,84 @@
+.heading {
+  text-align: center;
+}
+
+.height-screen {
+  height: 100vh;
+}
+
+.container {
+  background-color: #F2F3F8;
+  padding: 20px;
+}
+
+.container .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.container .img-container {
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .img {
+  width: 470px;
+}
+
+.container .form {
+  width: 100%;
+  margin: 30px 40px;
+}
+
+.container .input {
+  display: block;
+  border: 1px solid #33ADFF;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin: 10px 0;
+}
+
+.container .label {
+  font-size: 12px;
+  color: #616161;
+}
+
+.container .conditions {
+  color: #000;
+  font-weight: 600;
+}
+
+.container .submit-button {
+  background-color: #33ADFF;
+  border: 0;
+  display: block;
+  height: 35px;
+  width: 200px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.container .submit-button:hover {
+  background-color: #17a2fe;
+}
+
+.container .error {
+  color: #ff0000;
+}
+/*# sourceMappingURL=Login.css.map */
